@@ -23,7 +23,6 @@ const App = () => {
   return (
     <>
       <div className="container p-2">
-        <h5 className="text-center">USERS</h5>
         <div className="row">
           {state &&
             state.map((item) => {
